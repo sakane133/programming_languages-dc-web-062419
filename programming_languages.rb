@@ -4,7 +4,6 @@ def reformat_languages(languages)
   new_hash = {}
   languages.each do |style, lan|
     lan.each do |name, info|
-      binding.pry
       if new_hash[name] == nil
           new_hash[name] = attribute
         end
