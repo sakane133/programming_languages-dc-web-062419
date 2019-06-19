@@ -10,7 +10,8 @@ def reformat_languages(languages)
     if lan == :javescript
       info.each do |stuff, idk|
        binding.pry
-         
+           new_hash[:javascript][:style] << :oo
+
       end
   end 
 end
