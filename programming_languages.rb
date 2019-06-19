@@ -11,7 +11,7 @@ def reformat_languages(languages)
       info.each do |stuff, idk|
         
        binding.pry
-      
+      end
   end 
 end
 end
