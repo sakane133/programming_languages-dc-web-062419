@@ -6,7 +6,7 @@ def reformat_languages(languages)
     type.each do |lan, info|
       new_hash[name][:style] = []
       binding.pry
-      new_hash[name][:style] << new_hash
+      
 end
 end
 new_hash
