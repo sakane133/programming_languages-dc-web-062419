@@ -8,9 +8,7 @@ def reformat_languages(languages)
       new_hash[lan][:style] = []
     new_hash[lan][:style] << name
     if lan == :javescript
-      info.each do |stuff, idk|
-       binding.pry
-           new_hash[:javascript][:style] << :oo
+       new_languages[:javascript][:style] << :oo
 
       end
   end 
