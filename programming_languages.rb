@@ -10,6 +10,7 @@ def reformat_languages(languages)
     if lan == :javescript
        new_hash[lan][:javascript][:style] << :oo
       end
+    end
   end 
 end
 end
